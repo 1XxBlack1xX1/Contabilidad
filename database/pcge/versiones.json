@@ -1,0 +1,83 @@
+{
+  "fechaConsulta": "2026-11-24",
+  "versiones": [
+    {
+      "codigo": "PCGE_2019",
+      "csv": "2019",
+      "nombre": "PCGE Modificado 2019",
+      "descripcion": "Plan Contable General Empresarial Modificado 2019, homologado con las NIIF vigentes a esa fecha. Versión de aplicación obligatoria hasta su derogación por el PCGE 2026.",
+      "oficial": true,
+      "fechaAprobacion": null,
+      "fechaAplicacionObligatoria": "2020-01-01",
+      "fechaFinVigencia": "2027-12-31",
+      "permiteAplicacionAnticipada": null,
+      "predeterminada": true,
+      "notas": "Fecha de aplicación obligatoria (01/01/2020) tomada de fuentes secundarias; no se pudo descargar el texto oficial de la Resolución N.° 002-2019-EF/30 desde el portal del MEF. Fin de vigencia verificado en la Disposición Complementaria Derogatoria Única de la Resolución N.° 002-2026-EF/30. El Elemento 0 (Cuentas de orden) proviene del Capítulo III, pues no figura en el Capítulo II. El Elemento 9 no tiene cuentas codificadas: su uso queda a criterio de cada entidad. Se documentan 12 erratas tipográficas de la fuente (ver campo observación de cada cuenta).",
+      "fuentes": [
+        {
+          "tipo": "DOCUMENTO_OFICIAL",
+          "titulo": "Plan Contable General Empresarial Modificado 2019",
+          "numero": null,
+          "entidadEmisora": "Ministerio de Economía y Finanzas - Consejo Normativo de Contabilidad",
+          "fechaEmision": null,
+          "url": "https://cdn.www.gob.pe/uploads/document/file/315820/PCGE_2019.pdf",
+          "nombreArchivo": "PCGE_2019.pdf",
+          "sha256": "f3c683d973a834fcb26e3283f062350ec8df9d89102b2443467b2a9fee7b2e7c",
+          "verificada": true,
+          "notas": "Documento de 311 páginas. Catálogo extraído del Capítulo II (págs. 21-62 del PDF)."
+        },
+        {
+          "tipo": "RESOLUCION",
+          "titulo": "Resolución del Consejo Normativo de Contabilidad que aprueba el PCGE Modificado 2019",
+          "numero": "002-2019-EF/30",
+          "entidadEmisora": "Consejo Normativo de Contabilidad",
+          "fechaEmision": null,
+          "url": "https://www.gob.pe/institucion/mef/normas-legales/277088-002-2019-ef-30",
+          "nombreArchivo": null,
+          "sha256": null,
+          "verificada": false,
+          "notas": "Texto no verificado directamente: el portal no permitió la descarga automatizada. Fecha de emisión pendiente de verificación."
+        }
+      ]
+    },
+    {
+      "codigo": "PCGE_2026",
+      "csv": "2026",
+      "nombre": "PCGE 2026",
+      "descripcion": "Plan Contable General Empresarial 2026, por referencia a las NIIF publicadas por el IASB hasta el 31 de diciembre de 2025. Incorpora cuentas para la presentación conforme a la NIIF 18 y el Elemento 9 Gastos por categoría.",
+      "oficial": true,
+      "fechaAprobacion": "2026-09-01",
+      "fechaAplicacionObligatoria": "2028-01-01",
+      "fechaFinVigencia": null,
+      "permiteAplicacionAnticipada": true,
+      "predeterminada": false,
+      "notas": "Aprobado por la Resolución N.° 002-2026-EF/30 (Lima, 1 de setiembre de 2026). Entra en vigencia el 1 de enero de 2028; las entidades pueden aplicarlo en ejercicios precedentes según sus políticas contables (Segunda Disposición Complementaria Final). No aplica a entidades supervisadas por la SBS. No incluye Elemento 0 (Cuentas de orden). Se documenta 1 errata tipográfica de la fuente.",
+      "fuentes": [
+        {
+          "tipo": "DOCUMENTO_OFICIAL",
+          "titulo": "Plan Contable General Empresarial 2026",
+          "numero": null,
+          "entidadEmisora": "Ministerio de Economía y Finanzas - Consejo Normativo de Contabilidad",
+          "fechaEmision": "2026-09-01",
+          "url": "https://cdn.www.gob.pe/uploads/document/file/10567153/8559148-plan-contable-general-empresarial-pcge-2026(2).pdf?v=1788535543",
+          "nombreArchivo": "PCGE_2026.pdf",
+          "sha256": "48c568ca196c68348743dda96c55c38593b0437ce732a4c5d77d7c9aca896b19",
+          "verificada": true,
+          "notas": "Documento de 203 páginas publicado en la sede digital del MEF (gob.pe). Catálogo extraído del Capítulo II (págs. 19-52 del PDF)."
+        },
+        {
+          "tipo": "RESOLUCION",
+          "titulo": "Aprobación del Plan Contable General Empresarial, PCGE - 2026",
+          "numero": "002-2026-EF/30",
+          "entidadEmisora": "Consejo Normativo de Contabilidad",
+          "fechaEmision": "2026-09-01",
+          "url": "https://www.gob.pe/institucion/mef/normas-legales/8559200-002-2026-ef-30",
+          "nombreArchivo": null,
+          "sha256": null,
+          "verificada": true,
+          "notas": "Texto verificado sobre la copia difundida por el Colegio de Contadores Públicos de Lambayeque (https://ccplamb.org.pe/descargas/rcnc-2-2026-ef.pdf). Contenido verificado: Artículo 1 (objeto), Segunda Disposición Complementaria Final (vigencia desde el 01/01/2028 y aplicación anticipada) y Disposición Complementaria Derogatoria Única (deroga el PCGE 2019)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pcge-herramientas",
+  "private": true,
+  "type": "module",
+  "description": "Extracción y validación del catálogo de cuentas del PCGE desde los PDF oficiales",
+  "scripts": {
+    "extraer": "node extraer-catalogo.mjs"
+  },
+  "dependencies": {
+    "pdfjs-dist": "4.10.38"
+  }
+}

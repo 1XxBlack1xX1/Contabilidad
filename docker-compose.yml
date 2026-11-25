@@ -1,0 +1,24 @@
+# Base de datos PostgreSQL para desarrollo local.
+# Las credenciales se leen desde el archivo .env (ver .env.example).
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: contabilidad-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-contabilidad}
+      POSTGRES_USER: ${DB_USER:-contabilidad}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Defina DB_PASSWORD en el archivo .env}
+      TZ: America/Lima
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - contabilidad-datos:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  contabilidad-datos:
