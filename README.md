@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CONTABILIDAD
 
 Sistema web contable basado en el **Plan Contable General Empresarial (PCGE) del Perú**, pensado para
@@ -247,3 +248,7 @@ Frontend: `npm run build` verifica los tipos y compila; `npm run lint` revisa el
 - Cierre de períodos contables (bloqueo de meses cerrados) y asientos de apertura y cierre automáticos.
 - Moneda extranjera y tipo de cambio (hoy los asientos se registran solo en soles).
 - Formatos de libros electrónicos del PLE de SUNAT.
+=======
+# Contabilidad
+Un proyecto de contabilidad empresarial 
+>>>>>>> a93c71f18ebc2f85747e4e3da76d2299d974e5c8
